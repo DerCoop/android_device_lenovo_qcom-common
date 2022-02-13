@@ -12,7 +12,7 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-BOARD_VENDOR := samsung
+BOARD_VENDOR := lenovo
 
 # Bootloader
 TARGET_NO_BOOTLOADER := true
@@ -30,6 +30,6 @@ TARGET_USES_ION := true
 BOARD_USES_QCOM_HARDWARE := true
 
 # Recovery
-TARGET_RECOVERY_DEVICE_DIRS += device/samsung/qcom-common
+TARGET_RECOVERY_DEVICE_DIRS += device/lenovo/qcom-common
 TARGET_RECOVERY_PIXEL_FORMAT := "RGBX_8888"
 BOARD_HAS_DOWNLOAD_MODE := true

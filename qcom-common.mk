@@ -14,7 +14,7 @@
 
 # Overlay
 DEVICE_PACKAGE_OVERLAYS += \
-    device/samsung/qcom-common/overlay
+    device/lenovo/qcom-common/overlay
 
 PRODUCT_PROPERTY_OVERRIDES += \
     debug.sf.hw=1 \
